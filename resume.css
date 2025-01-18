@@ -1,8 +1,6 @@
 body {
   font-family: "Cabin", Arial, Helvetica, sans-serif;
-  height: 100vh;
-
-  margin: 0 150px;
+  margin: 25px 150px;
 }
 h1,
 h2,
@@ -33,4 +31,52 @@ p {
 }
 #summary-body {
   margin: 10px 0;
+}
+
+@media (min-width: 1400px) {
+  body {
+    margin: 25px 250px;
+  }
+}
+
+@media (max-width: 805px) {
+  body {
+    margin: 20px 50px;
+  }
+
+  .personal-info-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .heading-container {
+    gap: 5px;
+  }
+
+  .links {
+    margin: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    margin: 10px;
+  }
+
+  .personal-info-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .heading-container {
+    gap: 2px;
+  }
+
+  .section-titles {
+    font-size: 14px;
+  }
+
+  #summary-body {
+    font-size: 14px;
+  }
 }
