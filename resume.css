@@ -1,0 +1,36 @@
+body {
+  font-family: "Cabin", Arial, Helvetica, sans-serif;
+  height: 100vh;
+
+  margin: 0 150px;
+}
+h1,
+h2,
+h4 {
+  margin: 0;
+}
+p {
+  margin: 5px 0;
+}
+.heading-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+.personal-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.links {
+  margin: 10px;
+}
+.section-titles {
+  margin: 10px 0;
+}
+#name-title {
+  margin: 10px 0;
+}
+#summary-body {
+  margin: 10px 0;
+}
