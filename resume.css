@@ -1,6 +1,7 @@
 body {
   font-family: "Cabin", Arial, Helvetica, sans-serif;
-  margin: 25px 150px;
+  margin: 0 175px;
+  padding: 0 0 20px 0;
 }
 h1,
 h2,
@@ -26,6 +27,9 @@ p {
 .section-titles {
   margin: 10px 0;
 }
+.tiny-text {
+  font-size: smaller;
+}
 #name-title {
   margin: 10px 0;
 }
@@ -33,13 +37,19 @@ p {
   margin: 10px 0;
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
   body {
-    margin: 25px 250px;
+    margin: 25px 700px;
   }
 }
 
-@media (max-width: 805px) {
+@media (min-width: 1400px) {
+  body {
+    margin: 25px 350px;
+  }
+}
+
+@media (max-width: 855px) {
   body {
     margin: 20px 50px;
   }
@@ -51,10 +61,6 @@ p {
 
   .heading-container {
     gap: 5px;
-  }
-
-  .links {
-    margin: 5px;
   }
 }
 
@@ -73,10 +79,21 @@ p {
   }
 
   .section-titles {
+    font-size: 18px;
+  }
+
+  h4 {
     font-size: 14px;
+  }
+
+  .tiny-text {
+    font-size: x-small;
   }
 
   #summary-body {
     font-size: 14px;
+  }
+  ul {
+    padding-left: 20px;
   }
 }
