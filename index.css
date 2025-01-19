@@ -15,6 +15,15 @@ h4 {
 p {
   margin: 5px 0;
 }
+a {
+  border-radius: 5px;
+  padding: 2px 4px;
+  text-decoration: none;
+  transition: 450ms;
+}
+a:hover {
+  background-color: rgb(188, 188, 188);
+}
 .heading-container {
   display: flex;
   flex-direction: column;
